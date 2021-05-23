@@ -1,0 +1,7 @@
+---
+- name: Put the spoiler 2 text in the tmp directory on the remote server.
+  copy:
+    content="i am spoiler 2"
+    dest=/tmp/spoiler_text2.txt
+  tags:
+    - spoiler2
